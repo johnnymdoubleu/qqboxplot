@@ -30,7 +30,7 @@ library(qqboxplot)
 simulated_data %>%
          ggplot(aes(factor(group, levels=c("normal, mean=2", "t distribution, df=32", "t distribution, df=16", "t distribution, df=8", "t distribution, df=4")), y=y)) +
          geom_qqboxplot(notch=TRUE, varwidth = TRUE, reference_dist="norm", qq.colour = 'steelblue') +
-         #  geom_qqboxplot(notch=TRUE, varwidth = TRUE, reference_dist="norm", qq.colour = 'steelblue') +
+         # geom_qqboxplot(notch=TRUE, varwidth = TRUE, reference_dist="norm") + ## this is the original code
          xlab("reference: normal distribution") +
          ylab(NULL) +
          guides(color=FALSE) +
