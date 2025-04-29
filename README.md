@@ -14,7 +14,7 @@ The current version of qqboxplot can be installed from (author has not pulled my
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
+# install.packages("remotes")
 remotes::install_github("jrodu/qqboxplot")
 ```
 
