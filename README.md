@@ -10,19 +10,12 @@ The qqboxplot package implements q-q boxplots as an extension to
 ggplot2.
 
 ## Installation
-
-Install through [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("qqboxplot")
-```
-
-The most recent version of qqboxplot can be installed from
+The current version of qqboxplot can be installed from (author has not pulled my commit yet)
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("jrodu/qqboxplot")
+remotes::install_github("jrodu/qqboxplot")
 ```
 
 ## Example
